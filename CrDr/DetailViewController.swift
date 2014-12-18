@@ -11,6 +11,8 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
+    @IBOutlet var locationField: UITextField!
+    @IBOutlet var costField: UITextField!
 
 
     var detailItem: AnyObject? {

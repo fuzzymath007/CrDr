@@ -15,6 +15,8 @@
 		57824E111A435D6700531ED8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57824E101A435D6700531ED8 /* Images.xcassets */; };
 		57824E141A435D6700531ED8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57824E121A435D6700531ED8 /* LaunchScreen.xib */; };
 		57824E201A435D6700531ED8 /* CrDrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57824E1F1A435D6700531ED8 /* CrDrTests.swift */; };
+		57824E2A1A43627200531ED8 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57824E291A43627200531ED8 /* Transaction.swift */; };
+		57F7DB9F1A43828200248CDA /* AddEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7DB9E1A43828200248CDA /* AddEditTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		57824E191A435D6700531ED8 /* CrDrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrDrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57824E1E1A435D6700531ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57824E1F1A435D6700531ED8 /* CrDrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrDrTests.swift; sourceTree = "<group>"; };
+		57824E291A43627200531ED8 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		57F7DB9E1A43828200248CDA /* AddEditTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +89,11 @@
 				57824E091A435D6700531ED8 /* MasterViewController.swift */,
 				57824E0B1A435D6700531ED8 /* DetailViewController.swift */,
 				57824E0D1A435D6700531ED8 /* Main.storyboard */,
+				57F7DB9E1A43828200248CDA /* AddEditTableViewController.swift */,
 				57824E101A435D6700531ED8 /* Images.xcassets */,
 				57824E121A435D6700531ED8 /* LaunchScreen.xib */,
 				57824E061A435D6700531ED8 /* CrDr.xcdatamodeld */,
+				57824E291A43627200531ED8 /* Transaction.swift */,
 				57824E021A435D6700531ED8 /* Supporting Files */,
 			);
 			path = CrDr;
@@ -218,10 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F7DB9F1A43828200248CDA /* AddEditTableViewController.swift in Sources */,
 				57824E081A435D6700531ED8 /* CrDr.xcdatamodeld in Sources */,
 				57824E051A435D6700531ED8 /* AppDelegate.swift in Sources */,
 				57824E0A1A435D6700531ED8 /* MasterViewController.swift in Sources */,
 				57824E0C1A435D6700531ED8 /* DetailViewController.swift in Sources */,
+				57824E2A1A43627200531ED8 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +423,7 @@
 				57824E251A435D6700531ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57824E261A435D6700531ED8 /* Build configuration list for PBXNativeTarget "CrDrTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				57824E281A435D6700531ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
